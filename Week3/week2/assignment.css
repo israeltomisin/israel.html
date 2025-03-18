@@ -2,6 +2,8 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    justify-items: center;
+    align-items: center;
 }
 
 .navbar{
@@ -134,4 +136,25 @@ body{
     margin: 0 auto;
     background-color: #45a049;
     height: 250px;
+}
+
+.cont2{
+    color: solid black;
+    margin-right: 280px;
+    border: 50px;
+}
+
+.cont3{
+    color: solid black;
+    margin-right: 300px;
+}
+
+.b5{
+    background-color: gray;
+    color: black;
+    margin-right: 700px;
+}
+
+@media screen and (max-width:500px) {
+    
 }
